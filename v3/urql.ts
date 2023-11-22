@@ -183,7 +183,7 @@ declare module '#app' {
     }
 }
 
-declare module 'nuxt/dist/app/nuxt' {
+declare module '#app' {
     interface NuxtApp {
         $urql: Ref<Client>
         urqlReset: () => undefined
